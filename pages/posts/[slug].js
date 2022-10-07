@@ -82,5 +82,5 @@ export default function BlogPost({ post }) {
                 dangerouslySetInnerHTML={{ __html: post.content.html }}
             ></div>
         </main>
-    );
+    )
 }
