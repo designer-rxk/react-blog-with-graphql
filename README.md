@@ -4,7 +4,7 @@ Technology used:
 * Next.js 
 * Hygraph
 * GraphQL
-To run:
+## To run:
 * install dependencies
 * npm run dev
 * Check localhost ( http://localhost:3000/ )
