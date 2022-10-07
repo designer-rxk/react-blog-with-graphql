@@ -58,6 +58,9 @@ export async function getStaticProps({ params }) {
 
 export default function BlogPost({ post }) {
     return (
+        <>
+
+
         <main className={styles.blog}>
             <img
                 className={styles.cover}
@@ -82,5 +85,12 @@ export default function BlogPost({ post }) {
                 dangerouslySetInnerHTML={{ __html: post.content.html }}
             ></div>
         </main>
+            <footer>
+                <nav>
+                    Copyright © 2022 by Digital Scribbles
+                </nav>
+            </footer>
+        </>
+
     )
 }

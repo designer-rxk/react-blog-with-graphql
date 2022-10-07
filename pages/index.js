@@ -65,6 +65,11 @@ export default function Home({ posts }) {
                     />
                 ))}
             </main>
+            <footer>
+                <nav>
+                    Copyright © 2022 by Digital Scribbles
+                </nav>
+            </footer>
         </div>
     )
 }
