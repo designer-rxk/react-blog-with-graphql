@@ -1,5 +1,5 @@
 # This is a Blog website made with React.js
-Technology used:
+## Technology used:
 * React.js
 * Next.js 
 * Hygraph
