@@ -3,9 +3,7 @@ import styles from "../styles/Home.module.css";
 import { GraphQLClient, gql } from "graphql-request";
 import BlogCard from "../components/BlogCard";
 
-const graphcms = new GraphQLClient(
-    "https://api-eu-central-1-shared-euc1-02.hygraph.com/v2/cl8yd9h2l276u01t9d5fo5n6j/master"
-);
+const graphcms = new GraphQLClient(process.env.NEXT_PUBLIC_HYGRAPH_MASTER_KEY);
 
 // Backend is @ https://app.hygraph.com/
 

@@ -2,9 +2,7 @@ import { GraphQLClient, gql } from "graphql-request";
 import styles from "../../styles/Slug.module.css";
 import moment from "moment";
 
-const graphcms = new GraphQLClient(
-    "MASTER API KEY @ https://app.hygraph.com/"
-);
+const graphcms = new GraphQLClient(process.env.NEXT_PUBLIC_HYGRAPH_MASTER_KEY);
 
 const QUERY = gql`
   query Post($slug: String!) {
